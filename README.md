@@ -2,6 +2,30 @@
 contact me in my discord server:
 https://discord.gg/v35wYXKsFq
 
-# setup and launching
+## setup and launching 
 
-`sudo apt update && sudo apt upgrade -y`
+Install `software-properties-common`
+```
+sudo apt install software-properties-common -y
+```
+Add python Deadsnakes PPA
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+```
+Install Python 3.13
+```
+sudo apt install python3.13 python3.13-dev python3.13-venv python3-pip -y
+```
+Update installed and existing packages
+```
+sudo apt update && sudo apt upgrade
+```
+Create a tmux session.
+```
+tmux new -s 43210
+```
+Download server files.
+```
+git clone https://github.com/anasdhaoidi/ATD-API-9-SERVER
+cd ATD-API-9-SERVER
+```
