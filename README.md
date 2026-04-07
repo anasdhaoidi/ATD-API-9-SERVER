@@ -30,11 +30,11 @@ git clone https://github.com/anasdhaoidi/ATD-API-9-SERVER
 cd ATD-API-9-SERVER
 ```
 ## launching the server 
-chmod 777 atd_server
+`chmod 777 atd_server`
 ```
-chmod 777 dist/atd_headless
+`chmod 777 dist/atd_headless`
 ```
-chmod 777 dist/atd_headless_aarch64
+`chmod 777 dist/atd_headless_aarch64`
 ```
 ./atd_server
 ```
