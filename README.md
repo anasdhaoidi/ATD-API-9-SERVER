@@ -29,14 +29,15 @@ Download server files.
 git clone https://github.com/anasdhaoidi/ATD-API-9-SERVER
 cd ATD-API-9-SERVER
 ```
-## launching the server 
-`chmod 777 atd_server`
+## Making the server files executable.
 ```
-`chmod 777 dist/atd_headless`
+chmod 777 bombsquad_server
+chmod 777 dist/bombsquad_headless
+chmod 777 dist/bombsquad_headless_aarch64
 ```
-`chmod 777 dist/atd_headless_aarch64`
+Starting the server
 ```
-./atd_server
+./bombsquad_server
 ```
 ### Adding yourself as owner
 - Open `dist/ba_root/mods/playersData/roles.json` in your prefered editor.
