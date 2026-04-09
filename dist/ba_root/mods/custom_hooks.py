@@ -1,7 +1,6 @@
 """Custom hooks to pull of the in-game functions."""
 
 # ba_meta require api 9
-# (see https://ballistica.net/wiki/meta-tag-system)
 
 # pylint: disable=import-error
 # pylint: disable=import-outside-toplevel
