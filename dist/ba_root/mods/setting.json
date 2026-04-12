@@ -126,7 +126,7 @@
   "whitelist": false,
   "ATD_Pows": {
     "enable": true,
-    "SHIELD_ON_POWERUPS": true,
+    "SHIELD_ON_POWERUPS": false,
     "NAME_ON_POWERUPS": true,
     "SPARK_WHEN_SPAWN": true,
     "POWERUP_TIME_BAR": true,
@@ -155,7 +155,8 @@
       ],
       "Who created BombSquad?": [
         "eric froemling",
-        "froemling"
+        "froemling",
+        "eric"
       ],
       "What is the latest BombSquad API version?": [
         "9",
