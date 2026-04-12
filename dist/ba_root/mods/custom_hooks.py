@@ -323,8 +323,6 @@ def bootstraping():
     if settings["custom_characters"]["enable"]:
         from plugins import importcustomcharacters
         importcustomcharacters.enable()
-    if settings["StumbledScoreScreen"]:
-        pass
     if settings["colorfullMap"]:
         from plugins import colorfulmaps2
     try:
