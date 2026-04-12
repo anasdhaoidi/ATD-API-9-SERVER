@@ -27,7 +27,7 @@ tmux new -s 43210
 Download server files.
 ```
 git clone https://github.com/anasdhaoidi/ATD-API-9-SERVER
-cd ATD-API-9-SERVER && cd ATD-API-9-SERVER
+cd ATD-API-9-SERVER
 ```
 ## Making the server files executable.
 ```
