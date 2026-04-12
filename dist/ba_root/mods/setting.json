@@ -13,7 +13,6 @@
     ]
   },
   "ShowKickVoteStarterName": true,
-  "StumbledScoreScreen": true,
   "WarnCooldownMinutes": 30,
   "afk_remover": {
     "enable": false,
@@ -112,9 +111,10 @@
         0
       ],
       "msg": [
-        "type end to start end vote",
+        "you can suggest ideas in our discord server",
+        "join our discord server by clicking stat button",
         "start msg with prefix .(dot) to send in game popup msg",
-        "start msg with prefix ,(comma) to send msg to teammates",
+        "type /shop to see our shop",
         "server by ATD"
       ],
       "randomColor": true
