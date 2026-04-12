@@ -293,21 +293,21 @@ class textonmap:
                                                           'windowHSmallVSmall'),
                                                       'position': (-72, -165),
                                                       'attach': 'topRight',
-                                                      'opacity': 0.5,
+                                                      'opacity': 1,
                                                       'color': (0.5, 0.5, 0.5)})
                 self.ss1 = bs.newnode('image', attrs={'scale': (236, 34),
                                                       'texture': bs.gettexture(
                                                           'frameInset'),
                                                       'position': (-79, -95),
                                                       'attach': 'topRight',
-                                                      'opacity': 0.5,
+                                                      'opacity': 1,
                                                       'color': (0, 0, 0)})
                 self.ss2 = bs.newnode('image', attrs={'scale': (217, 49),
                                                       'texture': bs.gettexture(
                                                           'clayStroke'),
                                                       'position': (-79, -95),
                                                       'attach': 'topRight',
-                                                      'opacity': 0.5,
+                                                      'opacity': 1,
                                                       'color': (1, 0, 0)})
                 bs.animate_array(self.ss2,'color',3,{0:(0,0,2),0.5:(0,2,0),1.0:(2,0,0),1.5:(2,2,0),2.0:(2,0,2),2.5:(0,1,6),3.0:(1,2,0)},loop=True)
             self.ss2a = bs.newnode('text', attrs={
